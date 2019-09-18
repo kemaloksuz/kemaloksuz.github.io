@@ -1,21 +1,17 @@
 ---
 layout: home2
 title: Me in a Nutshell
-description: "Jordi Pont-Tuset's website"
+description: "Kemal Öksüz's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
 ---
 
-I am a research scientist at <a href="https://research.google.com" target="_blank">Google Research</a> 
-and part of the advisory board of <a href="http://www.vilynx.com/index.html" target="_blank">Vilynx</a>.
+I am a Ph.D. candidate at <a href="https://www.metu.edu.tr" target="_blank">Middle East Technical University</a> in <a href="https://ceng.metu.edu.tr" target="_blank">Department of Computer Engineering</a> 
+and a member of the <a href="https://image.ceng.metu.edu.tr" target="_blank">Image Lab</a>.
 
 <br />
-Previously, I worked at <a href="http://www.vision.ee.ethz.ch/index.en.html" target="_blank">ETHZ</a>
-and <a href="http://www.disneyresearch.com/research-labs/disney-research-zurich/" target="_blank">Disney Research</a>,
-and I collaborated with <a href="http://www.cs.berkeley.edu/~malik/" target="_blank">Prof. J. Malik</a>'s vision group 
-and with the startup <a href="https://gestoos.com" target="_blank">Fezoo</a>.
+I am working for <a href="https://www.tsk.tr/HomeEng" target="_blank">Turkish Armed Forces</a> and living in Riga, Latvia.
 
 <br />
-I am a mathematician, engineer, and PhD in computer vision by <a href="http://www.upc.edu" target="_blank">UPC Barcelonatech</a>.
 
