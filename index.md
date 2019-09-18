@@ -4,7 +4,7 @@ title: Me in a Nutshell
 description: "Kemal Öksüz's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: trees.jpg
+  feature: rigaautumn.jpg
 ---
 
 I am a Ph.D. candidate at <a href="https://www.metu.edu.tr" target="_blank">Middle East Technical University</a> in <a href="https://ceng.metu.edu.tr" target="_blank">Department of Computer Engineering</a> 
