@@ -9,12 +9,12 @@ disqus_shortname: jponttuset
 # Owner/author information
 owner:
   name:           Kemal Öksüz
-  avatar:         jordi.png
+  avatar:         kemal.jpg
   bio:            I'm from a seaside town near Balıkesir, Turkey. Currently in Riga, Latvia. Passionate about computer vision.
   email:          kemal.oksz@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: kemaloksz
-  linkedin: jponttuset
+  linkedin: kemal-öksüz-154092112
   google_scholar: nWHRjrkAAAAJ
   github: kemaloksuz
 # Analytics and webmaster tools stuff goes here
@@ -22,14 +22,12 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Curriculum
-    url: /cv/
   - title: Publications
     url: /publications/
-  - title: Code
-    url: /code/
-  - title: Blog
-    url: /blog/
+  #- title: Code
+  #  url: /code/
+  #- title: Blog
+  #  url: /blog/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Riga

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://localhost:5000</loc>
+    </url>
+    
+    
+    <url>
+        <loc>http://localhost:5000/404/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/blog/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/code/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/cv/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/publications/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/sitemap.xml</loc>
+    </url>
+    
+
+    
+    <url>
+        <loc>http://localhost:5000/are-gans-the-new-deep/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/gans-et-al-growing-strong/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/dl-lstm-gan-evolution/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/deep-learning-evolution/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/xkcd-deep-learning/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/caffe-mac/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/deep-learning-takes-over-again/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/deep-learning-plateau/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/word-equations-to-latex/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/solving-sudokus-like-a-pro-2/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/deep-learning-scraping/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/matlab2014-mex-flags/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/a-small-trick-to-work-with-coco/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/solving-sudokus-like-a-pro-1/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/building-an-academic-website/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:5000/compiling-cplex-with-c++11-functionalities/</loc>
+    </url>
+    
+</urlset>

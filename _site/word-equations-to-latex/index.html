@@ -1,0 +1,222 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Kemal Öksüz's site  &#8211; Word to LaTeX, with Equations </title>
+<meta name="description" content="How to get the LaTeX code, including equations, out of a Word document.">
+<meta name="keywords" content="">
+<!-- Twitter Cards -->
+	
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:image" content=
+			
+				
+						"http://localhost:5000/images/"
+				
+			
+		>
+	
+	<meta name="twitter:title" content="Word to LaTeX, with Equations">
+	<meta name="twitter:description" content="How to get the LaTeX code, including equations, out of a Word document.">
+	<meta name="twitter:creator" content="@kemaloksz">
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Word to LaTeX, with Equations">
+<meta property="og:description" content="How to get the LaTeX code, including equations, out of a Word document.">
+<meta property="og:url" content="http://localhost:5000/word-equations-to-latex/">
+<meta property="og:site_name" content="Kemal Öksüz's site">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:5000/word-equations-to-latex/">
+<link href="http://localhost:5000/feed.xml" type="application/atom+xml" rel="alternate" title="Kemal Öksüz's site Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Webfonts -->
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:5000/assets/css/main.min.css">
+<link rel="stylesheet" href="http://localhost:5000/assets/academicons.css" />
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:5000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:5000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:5000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<!-- Icons -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<link rel="shortcut icon" href="http://localhost:5000/favicon.ico">
+<link rel="shortcut icon" href="http://localhost:5000/favicon.png">
+
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="192x192" href="http://localhost:5000/images/apple-icon-precomposed.png">
+
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:5000">Kemal Öksüz's site</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				<li><a href="http://localhost:5000/publications/" >Publications</a></li>
+		        
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+	<img src="http://localhost:5000/images/kemal.jpg" class="bio-photo" alt="Kemal Öksüz bio photo"></a>
+
+<h3>Kemal Öksüz</h3>
+<p>I'm from a seaside town near Balıkesir, Turkey. Currently in Riga, Latvia. Passionate about computer vision.</p>
+<a href="http://twitter.com/kemaloksz" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://scholar.google.es/citations?user=nWHRjrkAAAAJ" class="author-social" target="_blank"><i class="ai ai-google-scholar-square"></i>&nbsp; G. Scholar</a>
+
+<a href="http://linkedin.com/in/kemal-öksüz-154092112" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/kemaloksuz" class="author-social" target="_blank"><i class="fa fa-github-square"></i> Github</a>
+
+
+
+
+
+
+<a href="mailto:kemal.oksz@gmail.com" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> e-Mail</a>
+
+
+  </div>
+  <article>
+    <div class="headline-wrap">
+      
+        <h1><a href="http://localhost:5000/word-equations-to-latex/" rel="bookmark" title="Word to LaTeX, with Equations">Word to LaTeX, with Equations</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p>Maybe you have some old documents with nasty equations written in Word, but now you need to re-use them in LaTeX (maybe for your dissertation), and of course you don’t want to re-type everything.
+Thankfully, there exists <a href="http://writer2latex.sourceforge.net">writer2latex</a> that will help you do that. Here are the steps:</p>
+
+<ol>
+  <li>
+    <p>writer2latex takes a LibreOffice document as input, so first thing is to <strong>download and install <a href="http://writer2latex.sourceforge.net">LibreOffice</a></strong>, open your Word document (<code class="highlighter-rouge">.docx</code> or <code class="highlighter-rouge">.doc</code>) and <strong>save it as <code class="highlighter-rouge">.odt</code></strong>.</p>
+  </li>
+  <li>
+    <p>Then <strong>download and install <a href="https://www.libreoffice.org">writer2latex</a></strong> and read the instructions on how to run it. In Unix, for instance, it involved changing the execution permissions of the binary: <code class="highlighter-rouge">chmod +x w2l</code>.</p>
+  </li>
+  <li>
+    <p>Run the code:
+<code class="highlighter-rouge">./w2l -ultraclean Text.odt Text.tex</code>
+We use the <code class="highlighter-rouge">-ultraclean</code> option to get rid of all formatting, since <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> will take care of that.
+It is probable that the generated <code class="highlighter-rouge">.tex</code> won’t compile at first, so I recommend you get the parts you’re interested in by pieces into your final document.</p>
+  </li>
+</ol>
+
+<p>Big kudos to Henrik Just!</p>
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+	<img src="http://localhost:5000/images/kemal.jpg" class="bio-photo" alt="Kemal Öksüz bio photo"></a>
+
+<h3>Kemal Öksüz</h3>
+<p>I'm from a seaside town near Balıkesir, Turkey. Currently in Riga, Latvia. Passionate about computer vision.</p>
+<a href="http://twitter.com/kemaloksz" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://scholar.google.es/citations?user=nWHRjrkAAAAJ" class="author-social" target="_blank"><i class="ai ai-google-scholar-square"></i>&nbsp; G. Scholar</a>
+
+<a href="http://linkedin.com/in/kemal-öksüz-154092112" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/kemaloksuz" class="author-social" target="_blank"><i class="fa fa-github-square"></i> Github</a>
+
+
+
+
+
+
+<a href="mailto:kemal.oksz@gmail.com" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> e-Mail</a>
+
+
+        </div>
+        <p class="byline"><strong>Word to LaTeX, with Equations</strong> was published on <time datetime="2015-07-27T00:00:00+03:00">July 27, 2015</time> by <a href="http://localhost:5000" title="About Kemal Öksüz">Kemal Öksüz</a>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <footer>
+    <span>&copy; 2019 Kemal Öksüz. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:5000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:5000/assets/js/scripts.min.js"></script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'jponttuset'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        
+
+</body>
+</html>

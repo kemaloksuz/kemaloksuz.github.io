@@ -1,0 +1,252 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Kemal Öksüz's site  &#8211; Moving a lot of files under Linux (aka messing with MS COCO) </title>
+<meta name="description" content="Small trick to move a lot of files, as when working with MS COCO.">
+<meta name="keywords" content="">
+<!-- Twitter Cards -->
+	
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:image" content=
+			
+				
+						"http://localhost:5000/images/"
+				
+			
+		>
+	
+	<meta name="twitter:title" content="Moving a lot of files under Linux (aka messing with MS COCO)">
+	<meta name="twitter:description" content="Small trick to move a lot of files, as when working with MS COCO.">
+	<meta name="twitter:creator" content="@kemaloksz">
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Moving a lot of files under Linux (aka messing with MS COCO)">
+<meta property="og:description" content="Small trick to move a lot of files, as when working with MS COCO.">
+<meta property="og:url" content="http://localhost:5000/a-small-trick-to-work-with-coco/">
+<meta property="og:site_name" content="Kemal Öksüz's site">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:5000/a-small-trick-to-work-with-coco/">
+<link href="http://localhost:5000/feed.xml" type="application/atom+xml" rel="alternate" title="Kemal Öksüz's site Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Webfonts -->
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:5000/assets/css/main.min.css">
+<link rel="stylesheet" href="http://localhost:5000/assets/academicons.css" />
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:5000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:5000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:5000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<!-- Icons -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<link rel="shortcut icon" href="http://localhost:5000/favicon.ico">
+<link rel="shortcut icon" href="http://localhost:5000/favicon.png">
+
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="192x192" href="http://localhost:5000/images/apple-icon-precomposed.png">
+
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:5000">Kemal Öksüz's site</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				<li><a href="http://localhost:5000/publications/" >Publications</a></li>
+		        
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+	<img src="http://localhost:5000/images/kemal.jpg" class="bio-photo" alt="Kemal Öksüz bio photo"></a>
+
+<h3>Kemal Öksüz</h3>
+<p>I'm from a seaside town near Balıkesir, Turkey. Currently in Riga, Latvia. Passionate about computer vision.</p>
+<a href="http://twitter.com/kemaloksz" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://scholar.google.es/citations?user=nWHRjrkAAAAJ" class="author-social" target="_blank"><i class="ai ai-google-scholar-square"></i>&nbsp; G. Scholar</a>
+
+<a href="http://linkedin.com/in/kemal-öksüz-154092112" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/kemaloksuz" class="author-social" target="_blank"><i class="fa fa-github-square"></i> Github</a>
+
+
+
+
+
+
+<a href="mailto:kemal.oksz@gmail.com" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> e-Mail</a>
+
+
+  </div>
+  <article>
+    <div class="headline-wrap">
+      
+        <h1><a href="http://localhost:5000/a-small-trick-to-work-with-coco/" rel="bookmark" title="Moving a lot of files under Linux (aka messing with MS COCO)">Moving a lot of files under Linux (aka messing with MS COCO)</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p><a href="mscoco.org">Microsoft COCO</a> is a recent annotated database for object detection, segmentation, tagging, etc. It’s one order of magnitude larger than previous similar databases available. Here a comparison of sizes:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Database</th>
+      <th style="text-align: right"># classes</th>
+      <th style="text-align: right"># Images</th>
+      <th style="text-align: right"># Objects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">SegVOC12</td>
+      <td style="text-align: right">20</td>
+      <td style="text-align: right">2.913</td>
+      <td style="text-align: right">9.847</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">SBD</td>
+      <td style="text-align: right">20</td>
+      <td style="text-align: right">12.031</td>
+      <td style="text-align: right">32.172</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">MS COCO</td>
+      <td style="text-align: right">80</td>
+      <td style="text-align: right">123.287</td>
+      <td style="text-align: right">910.983</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>So when working with COCO, it’s typical to end up having to handle the 123.287 files of results. At some point you may want to move some of them, for instance, those that have a certain pattern in the name, such as <em>val2014</em>.</p>
+
+<p><br />
+In a Linux environment and with <em>mat</em> files as results, you would typically do something like:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">mv *val2014*.mat destination</code></pre></figure>
+
+<p>This worked flawlessly in Pascal, but in COCO you will get something like:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">Argument list too long</code></pre></figure>
+
+<p>What’s the problem? The number of elements that the shell can handle in the arguments is limited, and we may be trying to move a larger number of files. Luckily, we can find a workaround by using <code class="highlighter-rouge">xargs</code>:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">ls | grep  val2014 | xargs mv -t destination</code></pre></figure>
+
+<p>The <code class="highlighter-rouge">ls</code> command lists all files and <code class="highlighter-rouge">grep</code> filters the ones we want to move. Then, the list passes to <code class="highlighter-rouge">xargs</code>, which executes the <code class="highlighter-rouge">mv</code> command once per member of the list. The <code class="highlighter-rouge">-t</code> option (Note that the <code class="highlighter-rouge">-t</code> option works only on GNU systems) allows to exchange the order of the parameters of <code class="highlighter-rouge">mv</code>. More info <a href="http://unix.stackexchange.com/questions/128559/solving-mv-argument-list-too-long">here</a>.</p>
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+	<img src="http://localhost:5000/images/kemal.jpg" class="bio-photo" alt="Kemal Öksüz bio photo"></a>
+
+<h3>Kemal Öksüz</h3>
+<p>I'm from a seaside town near Balıkesir, Turkey. Currently in Riga, Latvia. Passionate about computer vision.</p>
+<a href="http://twitter.com/kemaloksz" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://scholar.google.es/citations?user=nWHRjrkAAAAJ" class="author-social" target="_blank"><i class="ai ai-google-scholar-square"></i>&nbsp; G. Scholar</a>
+
+<a href="http://linkedin.com/in/kemal-öksüz-154092112" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/kemaloksuz" class="author-social" target="_blank"><i class="fa fa-github-square"></i> Github</a>
+
+
+
+
+
+
+<a href="mailto:kemal.oksz@gmail.com" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> e-Mail</a>
+
+
+        </div>
+        <p class="byline"><strong>Moving a lot of files under Linux (aka messing with MS COCO)</strong> was published on <time datetime="2015-01-15T00:00:00+02:00">January 15, 2015</time> by <a href="http://localhost:5000" title="About Kemal Öksüz">Kemal Öksüz</a>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <footer>
+    <span>&copy; 2019 Kemal Öksüz. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:5000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:5000/assets/js/scripts.min.js"></script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'jponttuset'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        
+
+</body>
+</html>
