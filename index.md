@@ -18,6 +18,4 @@ I am working for <a href="https://www.tsk.tr/HomeEng" target="_blank">Turkish Ar
 Recent News
 <br />
 December 2019 - Our paper, <a href="https://arxiv.org/abs/1909.09777" target="_blank">Generating Positive Bounding Boxes for Balanced Training of Object Detectors</a> is accepted to Winter Conference on Applications of Computer Vision (WACV), 2020. 
-
-I am working for <a href="https://www.tsk.tr/HomeEng" target="_blank">Turkish Armed Forces</a> and living in Riga, Latvia.
 <br />
