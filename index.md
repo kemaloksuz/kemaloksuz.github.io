@@ -16,5 +16,5 @@ I received my MSc (2016) degree from <a href="https://www.cmpe.boun.edu.tr" targ
 I am working for <a href="https://www.tsk.tr/HomeEng" target="_blank">Turkish Armed Forces</a> and living in Riga, Latvia.
 
 <h1>Recent News</h1> 
-<b>December 2019<b/> - Our paper, <a href="https://arxiv.org/abs/1909.09777" target="_blank">Generating Positive Bounding Boxes for Balanced Training of Object Detectors</a> is accepted to Winter Conference on Applications of Computer Vision (WACV), 2020. See our <a href="https://github.com/kemaloksuz/BoundingBoxGenerator" target="_blank">project page</a> 
+**December 2019** - Our paper, <a href="https://arxiv.org/abs/1909.09777" target="_blank">Generating Positive Bounding Boxes for Balanced Training of Object Detectors</a> is accepted to Winter Conference on Applications of Computer Vision (WACV), 2020. See our <a href="https://github.com/kemaloksuz/BoundingBoxGenerator" target="_blank">project page</a> 
 <br />
