@@ -16,5 +16,6 @@ I received my MSc (2016) degree from <a href="https://www.cmpe.boun.edu.tr" targ
 I am working for <a href="https://www.tsk.tr/HomeEng" target="_blank">Turkish Armed Forces</a> and living in Riga, Latvia.
 
 <h1>Recent News</h1> 
+**March 2020** - Our paper, <a href="https://arxiv.org/abs/1909.00169" target="_blank">Imbalance Problems in Object Detection: A Review</a>, has been accepted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI). See our <a href="https://github.com/kemaloksuz/ObjectDetectionImbalance" target="_blank">project page</a>.<br /> 
 **February 2020** - We are organizing Imbalance Problems in Computer Vision (IJCV) workshop in ECCV 20. For further information, please check the <a href="https://sites.google.com/view/ipcv2020/" target="_blank"> workshop page</a>.<br /> 
 **December 2019** - Our paper, <a href="https://arxiv.org/abs/1909.09777" target="_blank">Generating Positive Bounding Boxes for Balanced Training of Object Detectors</a> is accepted to Winter Conference on Applications of Computer Vision (WACV), 2020. See our <a href="https://github.com/kemaloksuz/BoundingBoxGenerator" target="_blank">project page</a>.<br />
