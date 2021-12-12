@@ -13,8 +13,10 @@ I have received my B.Sc. degree from the Land Forces Academy of Turkey in 2008 a
 
 
 <h1>Recent News</h1> 
+**October 2021** - Our paper, <a href="https://arxiv.org/abs/2110.09734" target="_blank"> Mask-aware IoU for Anchor Assignment in Real-time Instance Segmentation
+</a>, has been accepted to BMVC 2021. The code is available in our <a href="https://github.com/kemaloksuz/Mask-aware-IoU" target="_blank">project page</a>.<br /> 
 **July 2021** - Our paper, <a href="https://arxiv.org/abs/2107.11669" target="_blank"> Rank & Sort Loss for Object Detection and Instance Segmentation</a>, has been accepted to ICCV 2021 for oral presentation. The code is available in our <a href="https://github.com/kemaloksuz/RankSortLoss" target="_blank">project page</a>.<br /> 
-**May 2021** - I have successfully defended my PhD Thesis titled Identifying and Addressing Imbalance Problems in Visual Detection. It will be public in short. <br /> 
+**May 2021** - I have successfully defended my PhD Thesis titled  <a href="https://open.metu.edu.tr/bitstream/handle/11511/90919/Identifying%20and%20Addressing%20Imbalance%20Problems%20in%20Visual%20Detection.pdf" target="_blank"> Identifying and Addressing Imbalance Problems in Visual Detection</a>. <br /> 
 **December 2020** - I gave a talk (in Turkish) about aLRP Loss in <a href="https://inzva.com/ai/meetups/2020/neurips-meetup-turkey-2020" target="_blank">NeurIPS Meetup Turkey</a>. You can check out the <a href="https://www.youtube.com/watch?v=8M4k4ILdzvg" target="_blank">talk</a> and  <a href="https://drive.google.com/file/d/1S_u0_sjK2FcGJZYQWY3PNPeybclAOf-_/view?usp=sharing" target="_blank">slides</a>. <br /> 
 **November 2020** - Our new preprint, <a href="https://arxiv.org/abs/2011.10772" target="_blank">One Metric to Measure them All: Localisation Recall Precision (LRP) for Evaluating Visual Detection Tasks
 </a>, is online! This paper extends the LRP Error, previosly published in ECCV 2018, to *all* visual detection tasks. You can find the implementation of LRP Error on commonly used datasets (COCO, LVIS and Panoptic-COCO) in our <a href="https://github.com/kemaloksuz/LRP-Error" target="_blank">project page</a>.<br /> 
