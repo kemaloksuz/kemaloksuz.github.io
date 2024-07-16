@@ -3,8 +3,6 @@ layout: home2
 title: Me in a Nutshell
 description: "Kemal Öksüz's website"
 tags: [Jekyll, theme, responsive, blog, template]
-image:
-  feature: rigaautumn.jpg
 ---
 
 I am a Senior Research Scientist in the Oxford Applied Research Team of <a href="https://www.five.ai" target="_blank">Five AI</a> (which has been acquired by Bosch). Our main mission is to help building the technology to enable driverless cars. Towards this aim, I have been closely working with <a href="https://puneetkdokania.github.io" target="_blank">Puneet Dokania</a> to develop accurate and robust computer vision algorithms.
